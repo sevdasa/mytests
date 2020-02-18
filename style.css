@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 60vh;
+    display: block;
+    background-image: url("images/HomeDesktopheader.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    margin: 0;
+}
+/* ______________________________ navbar _____________________________ */
+header #navbar{
+    width: 100%;
+    height: 13%;
+    background-color: #fff;
+    
+
+}
+#navbar ul li{
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    font-size: 12px;
+    color: black;
+}
+#navbar #button{
+    border: 2px groove black;
+    margin-top: 12px;
+    margin-left: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100px;
+    height: 33px;
+    font-weight: bold;
+}
+header h1{
+   color: #fff;
+   margin-top: 10%;
+   margin-left: 10%;
+   margin-bottom: 10px;
+
+}
+header p{
+    color: #AAA5AA;
+    margin-left: 14%;
+    font-size: 10px;
+    
+}
+/* ______________________________ container _____________________________ */
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.container h3{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.container p{
+    word-wrap: break-word;
+    text-align: center;
+    margin: 12px 20%;
+    font-size: 14px;
+    color: #5A585A;
+    line-height: 22px;
+
+}
+/* ______________________________ discover _____________________________ */
+.container .discover{
+    width: 80%;
+    margin: 40px auto;
+    display: table;
+    position: relative;
+}
+.container .discover .image{
+    width: 50%;
+    float: left;
+}
+.container .discover .image img{
+    width: 80%;
+    float: right;
+    margin-right: 20px;
+
+
+}
+.container .discover .text{
+    width: 50%;
+    float: right;
+    
+}
+.container .discover .text h5{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+
+}
+.container .discover .text p{
+    text-align: justify;
+    margin-left: 0;
+    word-wrap: break-word;
+    font-size: 12px;
+    color: #5A585A;
+    margin-right: 150px;
+}
+.container .button{
+   width: 30%;
+   height: 100px;
+   margin: 0 auto;
+}
+.container .button button{
+    color: #fff;
+    float: right;
+    margin-right: 90px;
+    background-color: #00CCCC;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+}
+/* ______________________________ skillls _____________________________ */
+.container .skills{
+    width: 80%;
+    margin: 40px auto;
+    display: table;
+    position: relative;
+}
+.container .skills .image{
+    width: 50%;
+    float: left;
+}
+.container .skills .image img{
+    width: 60%;
+    float: right;
+    margin-right: 20px;
+
+
+}
+.container .skills .text{
+    width: 50%;
+    float: right;
+    
+}
+.container .skills .text h5{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-right: 150px;
+
+}
+.container .skills .text p{
+    text-align: justify;
+    margin-left: 0;
+    word-wrap: break-word;
+    margin-right: 150px;
+
+    font-size: 12px;
+    color: #5A585A;
+}
+.container .button-skill{
+   width: 30%;
+   height: 100px;
+   margin: 0 auto;
+}
+.container .button-skill button{
+    color: #fff;
+    float: right;
+    margin-right: 90px;
+    background-color: #00CCCC;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+}
+/* ______________________________ pic-first _____________________________ */
+.container .pic-first{
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("images/HomeTablethtml_row4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.container .pic-first .number{
+    width: 300px;
+    height: 150px;
+    float: right;
+    border: 2px solid #fff;
+    margin-right: 60px;
+    margin-top: 100px;
+    display: table;
+   
+}
+.container .pic-first .number p{
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 90px;
+    display: table-cell;
+
+}
+.container .pic-first .text{
+    float: left;
+    width: 400px;
+    margin-left: 0;
+}
+.container .pic-first .text h5{
+    text-align: justify;
+    color:#fff;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+.container .pic-first .text .large{
+    font-size: 20px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+.container .pic-first .text p{
+    text-align: justify;
+    color:#fff;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+/* ______________________________ features _____________________________ */
+.container .features{
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+}
+.container .features h5{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.container .features .feature-items{
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin: 60px auto;
+}
+.container .features .feature-items .pic{
+    margin: 0 auto;
+
+    
+}
+.container .features .feature-items .pic img{
+    text-align: center;
+    display: block;
+    margin-left: 80px ;
+}
+.container .features .feature-items .text{
+    float: left;
+    margin-left: 0;
+
+}
+.container .features .feature-items .text h6{
+    text-align: center;
+    margin-top: 20px;
+}
+.container .features .feature-items .text p{
+    text-align: center;
+    color: #5A585A;
+}
+/* ______________________________ weather _____________________________ */
+.container .weather{
+    width: 70%;
+    height: 300px;
+    margin: 60px auto;
+    background-image: url("images/HomeDesktophtml_row7.jpg");
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+.container .weather .items{
+    width: 25%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.container .weather .items .pic{
+    clear: both;
+    margin-left: 20px;
+}
+.container .weather .items .pic img{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.container .weather .items p{
+    color: #fff;
+    text-align: center;
+    margin-left: 70px;
+}
+/* ______________________________ recent-work _____________________________ */
+.container .recent-work{
+    width: 70%;
+    height: 300px;
+    margin: 60px auto;
+    display: table;
+}
+
+.container .recent-work p{
+    margin-bottom: 30px;
+    color: #5A585A;
+}
+
+
+.container .recent-work .img-items{
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+.container .recent-work .img-items img{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.container .recent-work .button-recent{
+    width: 30%;
+    height: 100px;
+    margin: 0 auto;
+    clear: both;
+    display: table;
+    
+}
+.container .recent-work .button-recent button {
+    color: #fff;
+    float: right;
+    margin-right: 90px;
+    background-color: #00CCCC;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+/* ______________________________ recent-work _____________________________ */
+
+.container .pic-end{
+    width: 70%;
+    height: 400px;
+    margin: 60px auto;
+    display: table;
+    background-image: url("images/HomeMobilehtml_row13.png");
+    background-position: center;
+    background-size: cover;
+}
+.container .pic-end h5{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container .pic-end p{
+    word-wrap: break-word;
+    color: #fff;
+    font-size: 12px;
+}
+.container .pic-end .pic{
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+   
+}
+.container .pic-end .pic img{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+/* ______________________________ question_____________________________ */
+.question{
+    width: 70%;
+    height: 200px;
+    margin: 60px auto;
+}
+.question h3{
+ text-align: center;
+}
+.question p{
+    word-wrap: break-word;
+    line-height: 22px;
+}
+/* ______________________________ footer _____________________________ */
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #14111D;
+    display: table;
+}
+footer h5{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 8px;
+
+}
+footer .social{
+    width: 30%;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 400px;
+}
+footer .social .item{
+    float: left;
+   margin-left: 10px;
+}
+footer .social .item img{
+    text-align: center;
+    display: block;
+
+
+}
